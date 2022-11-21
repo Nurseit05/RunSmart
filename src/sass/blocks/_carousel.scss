@@ -17,4 +17,14 @@
     right: -66px;
     left: auto;
   }
+
+  @media(max-width:991px) {
+    &__inner {
+      width: 100%;
+    }
+    &__img 
+      img {
+      width: 100%;
+    }
+  }
 }
