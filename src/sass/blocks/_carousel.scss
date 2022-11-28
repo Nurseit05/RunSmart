@@ -19,6 +19,10 @@
   }
 
   @media(max-width:991px) {
+    .slick-next {
+      right: -66px;
+      left: auto;
+    }
     &__inner {
       width: 100%;
     }
